@@ -8,7 +8,7 @@ This project applies machine learning models to predict whether a machine will f
 **Records**: 944 observations  
 **Features**: 9 sensor-based measurements + 1 binary target variable (`fail`)
 
-## 📊 Feature Descriptions
+## Feature Descriptions
 
 | Feature         | Description |
 |----------------|-------------|
@@ -23,13 +23,13 @@ This project applies machine learning models to predict whether a machine will f
 | **Temperature**  | Measured temperature in the system. |
 | **fail**         | Target variable: 1 = failure, 0 = no failure. |
 
-## 🔧 Data Preprocessing
+## Data Preprocessing
 
 - Normalized all sensor features using standard scaling.
 - Split the dataset into training (70%) and testing (30%) sets.
 - Handled class imbalance analysis via exploratory plots.
 
-## 📈 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 ### Class Distribution
 
@@ -44,7 +44,7 @@ This project applies machine learning models to predict whether a machine will f
 ![machine_failure_heatmap](https://github.com/user-attachments/assets/81501847-7abd-4be7-8f8b-624e1b7bdaed)
 
 
-## 🤖 Models Used
+## Models Used
 
 ### 1. **Support Vector Classifier (RBF Kernel)**
 - Tuned using grid search on `C` and `gamma`.
